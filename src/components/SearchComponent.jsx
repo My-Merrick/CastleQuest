@@ -86,7 +86,9 @@ const SearchComponent = () => {
   return (
     <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
       <div className="flex flex-col sm:flex-row gap-1 mb-4">
-        <h1 className="text-1xl font-bold text-gray-700 mb-8">Filter By</h1>
+        <h1 className="text-1xl font-bold text-gray-700 mb-1 sm:mb-1">
+          Filter By
+        </h1>
         {/* <span className="block sm:inline-block mb-2 sm:mb-0 text-gray-500 ml-3 mt-2 sm:mt-1">
           min price
         </span>
@@ -148,7 +150,7 @@ const SearchComponent = () => {
       )}
       <div className="mt-8">
         {listings.length === 0 ? (
-          <p className="text-center">No listings found.</p>
+          <p className="text-center"></p>
         ) : (
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             {listings.map((listing) => (

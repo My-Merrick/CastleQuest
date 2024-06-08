@@ -173,7 +173,7 @@ const ContactUs = () => {
         <div className="fade-in-up" ref={mapRef}>
           <iframe
             title="Google Map"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345094947!2d144.95373631531685!3d-37.81627997975148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf5772f928c7e7b0d!2sEnvato!5e0!3m2!1sen!2sau!4v1510913644415"
+            src="https://www.google.com/maps/embed/v1/place?q=University+of+Ghana&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
             width="100%"
             height="450"
             frameBorder="0"

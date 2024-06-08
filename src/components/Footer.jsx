@@ -11,8 +11,8 @@ const Footer = () => {
           <div className="space-y-4">
             <h2 className="text-2xl font-bold">About Us</h2>
             <p className="text-sm">
-              Your Real Estate is a leading provider of real estate services,
-              including buying, selling, and renting properties.
+              UniHomes is a leading provider of real estate services, including
+              buying, selling, and renting properties.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-white hover:text-gray-400">
@@ -40,7 +40,7 @@ const Footer = () => {
               <Link to="/" className="text-sm hover:text-gray-400">
                 Home
               </Link>
-              <Link to="/properties" className="text-sm hover:text-gray-400">
+              <Link to="#" className="text-sm hover:text-gray-400">
                 Properties
               </Link>
               <Link to="/about" className="text-sm hover:text-gray-400">
