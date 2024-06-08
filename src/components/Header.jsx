@@ -28,15 +28,21 @@ const Header = () => {
   }
 
   return (
-    <div className="bg-gray-800 text-white border-b shadow-sm sticky top-0 z-50">
+    <div className="bg-gray-800 text-white border-b shadow-sm sticky top-0 z-50 py-5">
       <header className="flex justify-between items-center px-3 max-w-6xl mx-auto">
         <div>
-          <img
-            src="https://static.rdc.moveaws.com/rdc-ui/logos/logo-brand.svg"
-            alt="logo"
-            className="h-5 cursor-pointer"
+          <span
+            className="h-5 text-4xl mb-5 cursor-pointer"
             onClick={() => navigate("/")}
-          />
+          >
+            Uni
+          </span>
+          <span
+            className="h-5 text-red-700 text-4xl mb-5 cursor-pointer"
+            onClick={() => navigate("/")}
+          >
+            Homes
+          </span>
         </div>
         <div className="md:hidden">
           <button onClick={toggleMenu} className="focus:outline-none">
