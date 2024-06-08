@@ -1,7 +1,18 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react-swc'
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react-swc";
 
-// https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()],
-})
+  plugins: [
+    react({
+      jsxImportSource: "@emotion/react",
+      jsxRuntime: "automatic",
+      jsc: {
+        transform: {
+          react: {
+            throwIfNamespace: false, // This line ensures namespaces in JSX are allowed
+          },
+        },
+      },
+    }),
+  ],
+});
