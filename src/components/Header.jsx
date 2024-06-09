@@ -14,7 +14,7 @@ const Header = () => {
       if (user) {
         setPageState("profile");
       } else {
-        setPageState("sign in");
+        setPageState("sign in / Register");
       }
     });
   }, [auth]);
